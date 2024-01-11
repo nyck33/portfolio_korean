@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>N Kim portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About・自己紹介</a>
+            </li>
+            <li>
+                <a href="#experience">Experience・職務経験</a>
+            </li>
+            <li>
+                <a href="#education">Education・学歴</a>
+            </li>
+            <li>
+                <a href="#projects">Projects・主なプロジェクト</a>
+            </li>
+            <li>
+                <a href="#skills">Skills・スキル</a>
+            </li>
+            <li>
+                <a href="/korean.html">Korean・한국어</a>
+            </li>
+            <li>
+                <a href="#contact">Contact・連絡</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Nobutaka Kim</h1>
+            <h1>キム ノブタカ</h1>
+            <h2>Software Engineer</h2>
+            <h2>フリーランス</h2>
+
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me・自己紹介</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I have a Bachelor of Computer Science from Thompson Rivers University in Canada, Bachelor of
+                        Commerce　from UBC in Canada, will graduate with my MSCS from Georgia Tech in July and speak
+                        fluent Japanese.
+                        At OMSCS I completed Software Analysis and Test so have a good background in static and dynamic
+                        analysis and testing including instrumenting LLVM IR and using symbolic execution engines such
+                        as KLEE. Other courses I completed in the past year include Game AI (Unity) where I used fuzzy
+                        logic and neural networks (ML Agents, PPO algorithm) to train a race car to drive on its own,
+                        Information Security where I learned how to mitigate OWASP top ten threats, binary exploitation,
+                        RSA exploits and other security issues.
+                        My strongest language is Python but I am also proficient in those listed below. I had a couple
+                        of web apps deployed on Heroku but they were deleted, one with a CI/CD pipeline using CircleCI
+                        (one I moved over to pythonanywhere),
+                        and many other projects in computational photography, AI for Robotics and machine learning among
+                        others showcased below.
+                        My other interests in computing include HPC (high performance computing) using openMP, Cuda and
+                        MPI, theoretical computer science such as NP-completeness,
+                        bioinformatics, robotics algorithms and functional programming. I also recently learned POSIX
+                        multithreading and IPC (shared memory, semaphores, message queue).
+                        In my free time, I enjoy playing tennis, mountain biking, golf, snowboarding, ice skating,
+                        reading and cooking (trying to be more plant based nowadays).
+                    </p>
+                    <br />
+                    <p>
+                        2017年にプログラミングを始めましたが、2020年にカナダ・BC州のトンプソンリバーズ大学・コンピューターサイエンス学部を卒業しました。
+                        GPA（成績平均点）は卒業生のうち、トップ３に入りましたが、好きな授業はバイオインフォマティクス、アルゴリズム、
+                        コンピューターサイエンス理論、暗号手法等でした。現在はジョージア工科大学・コンピューターサイエンス学部・オンライン大学院を2023年7月に卒業予定ですが、計算者進学、ロボット工学のAI、大学院アルゴリズムの単位は取得済みです。その他にソフトウェア品質向上に必須なソフトウェア・テストに関する専門知識を身につけました　（LLVM、Symbolic
+                        Execution等）。
+                        HPCの世界ではOpenMP、Cuda、MPI等を勉強中です。POSIXのマルチスレッド、IPC等にも精通しています。
+                        セオリーではNP完全問題や関数型プログラミング(Haskell, Elm)に大変興味が有りますが、勉強を続けたいと思います。趣味はテニス、ゴルフ、、
+                        スノボー、マウンテンバイク、読書と料理等ですが、最近はプラントベースを意識してます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience・経験</h2>
+        <div id="experience-timeline">
+            <div data-date="January 2010 – current">
+                <h3>Freelance</h3>
+                <h4>Developer/Translator/English Teacher/Tennis Coach/Personal Trainer</h4>
+                <p>
+                    This is quite a varied background which I feel helps me as a developer since I bring many different
+                    perspectives to solving problems.
+                    For instance my teaching background helps me write code that is highly readable since I am used to
+                    writing things down in a way that my
+                    students could follow. This also makes it more modular and reusable.
+                    As a translator, I developed strong research skills so anytime I have run into problems while
+                    coding, I have always been able to Google my way
+                    to working solutions. I also have a good grasp on linguistics which helps me when building neural
+                    networks for NLP (natural language processing).
+                    As a tennis coach and personal trainer, I know the value of chipping away at problems bit-by-bit and
+                    making incremental improvements to myself
+                    and to code I write which accumulates over time into positive results.
+                    As a developer, my current focus is to make code more extensible by use of paradigms such as
+                    dependency injection which I learned while studying
+                    the concept of using interfaces for these purposes when developing web applications in C# .NET
+                </p>
+                <br />
+                <p>
+                    フリーランス活動にて翻訳・通訳・英語講師・パーソナルトレーナー・テニスコーチ・SWEを掛け持ちしましたが、SWEは2018年からです。
+                    様々なお仕事を実施した経歴がデベロッパーとして活動する際に役立っています。例えば、講師として「生徒が読みやすい文書」を心がけていましたが、
+                    それがデベロッパーとしては「他人が読みやすいコードを書く」につながりましたが結果的にそれが「モジュール式及び再利用可能」なコードになっています。
+                    翻訳経験では機械翻訳の技術やAPIに触れる機会が多かったためにNLP系ニューラルネットワークのチューニングができます。及び新たなジャンルの翻訳業務を
+                    実施する場合にはネット上でのリサーチが重要でしたので、デベロッパーとしてライブラリ・フレームワーク・実装の手法等のリサーチは得意分野です。
+                    スポーツ指導者・選手の経験の教訓は「日々コツコツと実力を上げていく」でしたが、Leetcodeにて問題を解いたり、現在はRust言語、Haskell言語、Unityゲームエンジンにてシミュレーションの開発の勉強を日々続けています。
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education・学歴</h2>
+        <div class="education-block">
+            <h3>Georgia Institute of Technology・ジョージア工科大学</h3>
+            <span class="education-date">Sept 2019 - In Progress・オンライン通学中</span>
+            <h4>Masters of Science in Computer Science</h4>
+            <h4>コンピューターサイエンス学部大学院</h4>
+            <p>
+                Overall GPA >= 3.75
+                成績平均　>=　3.75
+            </p>
+        </div>
+        <div class="education-block">
+            <h3>Thompson Rivers University・トンプソンリバーズ大学</h3>
+            <span class="education-date">Jan 2017 - Dec 2020</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <h4>コンピューターサイエンス学士号</h4>
+            <p>
+                Overall GPA >= 3.43
+                成績平均　>=　3.43
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of British Columbia・ブリティッシュコロンビア大学</h3>
+            <span class="education-date">Sept 1994 - June 1999</span>
+            <h4>Bachelor of Commerce in Finance</h4>
+            <h4>商学部金融学科学士号</h4>
+            <p>
+                Overall GPA >= 3.3
+                成績平均　>=　3.3
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+    <br>
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects・主なプロジェクト</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/js_css_html.jpeg" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Static Plant Based Food Website</h3>
+
+                        <p>
+                            Made with HTML5, CSS, Bootstrap and a tiny bit of JavaScript to make the case for
+                            plant-based diets. The font is difficult to read but I just treated this as an experiment to
+                            try
+                            out different fonts downloaded, layouts such as parallax, etc.
+                        </p>
+                        <p>
+                            ビーガン（粗食主義）の食生活がどう温暖化対策に貢献できるか、そしてビーガンの健康効果を説明しています。
+                            <a href="https://nyck33.github.io/ecoWarriors/" target="_blank">
+                                Link to ecoWarriors static site</a>
+                        </p>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/php.jpeg" height="200px" width="250px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Bioactive Food Ingredients</h3>
+
+                        <p>
+                            Made with PHP, JavaScript, CSS, Bootstrap, HTML5, MySQL and deployed to Heroku (was
+                            deleted), this
+                            app focuses on disease prevention through diet based on data taken from a Japanese
+                            university's
+                            databases using Python BeautifulSoup and translated using Google Translate API (it was GCP
+                            or Azure)
+                            services accessed via a PyPi package.
+                        </p>
+                        <p>
+                            <a href="https://github.com/nyck33/bioactiveKnapsack" target="_blank">
+                                Link to bioactive peptides app repo</a>
+                        </p>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Bioinformatics sequence alignment app</h3>
+
+                        <p>
+                            Python Plotly Dash bioinformatics web app with CI/CD pipeline (CircleCI and pythonanywhere)
+                            and
+                            browser testing with Selenium was made for my final project in an intro to bioinformatics
+                            class.
+                        </p>
+                        <p>
+                            <a href="http://nyck33.pythonanywhere.com/" target="_blank">
+                                Link to bioinformatics app</a>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Canadian food database app</h3>
+
+                        <p>
+                            This was made with Python, Plotly Dash and
+                            MySQL and MongoDB. However, the app in development is shown operating in the following
+                            videos. Also, the repo is listed on my resume.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/LW-x1HLDWgc" target="_blank">video part 1</a>
+                            <a href="https://youtu.be/b0yzHxHJkyk" target="_blank">video part 2</a>
+                        </p>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/qt_cpp.png" height="200px" width="250px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>C++ Qt Calculator App</h3>
+                        <p>
+                            Made with Qt GUI and C++, this calculator uses the Exprtk Math Engine under the hood.
+                            My calculator is fairly basic but can be expanded to do more.
+                            The repo is listed in my resume.
+                        </p>
+                        <p>
+                            <a href="https://github.com/nyck33/qt_exprtk_calculator" target="_blank">
+                                Link to C++ Qt Calculator repo</a>
+                        </p>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- end project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/unityLogo.png" height="200px" width="250px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Ninja Survival Game made with Unity </h3>
+                        <p>
+                            A ninja survival game made with Unity 3D game engine.
+                            Please see below.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- end project -->
+                <div class="row">
+                    <!-- blank row-->
+                </div>
+                <div class="row">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ATPZHA6Z3_E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+
+                    </iframe>
+                </div>
+                <!-- end project -->
+
+            </div>
+            <!--end of row-->
+
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Robotics AI Projects・ロボット工学のAIプロジェクト</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Kalman Filter カルマンフィルタ </h3>
+                        <p>
+                            The video shows a simulation of a spaceship navigating an asteroid field using Kalman
+                            filters to detect asteroids and predict possible collisions so it can get from the start at
+                            the bottom to the goal at the top.
+                        </p>
+                        <p>
+                            <a href="https://youtube.com/shorts/k5DQs_rQaxI" target="_blank">
+                                Spaceship navigates asteroid field video</a>
+                            <a href="https://drive.google.com/file/d/1jPpvqCTllJdusC5w4e60GY4AFOTg-b5a/view?usp=sharing"
+                                target="_blank">
+                                Project Description</a>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- end project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/unityLogo.png" height="200px" width="250px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>AI Racecar made with Unity </h3>
+                        <p>
+                            Using fuzzy logic to autonomously race a truck in Unity. Also used Unity ML-Agents PPO
+                            algorithm (reinforcement learning) to train the race car.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/CeLQb2M1oKY" target="_blank">
+                                fuzzy logic race car</a>
+                            <a href="https://youtu.be/iemjAmzGsi8" target="_blank">
+                                neural network race car</a>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Computer Vision, Perception Projects・コンピュータービジョンのプロジェクト</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Face Landmark Detection</h3>
+                        <p>
+                            This was more about tuning open source face landmark detectors to work with my dataset
+                            but as I have written a dog breed detector in Tensorflow and Keras, I am confident I can
+                            replicate this quite easily.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/QMs9DZk0IOs" target="_blank">
+                                Link to face landmarks video</a>
+                        </p>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>CNN for Defect Detection in Windshields</h3>
+                        <p>
+                            I passed a test for a German Manufacturing Execution System company's test for machine
+                            learning engineers. I used transfer learning with the VGG16 backbone and data augmentation
+                            to find the cracks in the car windshields.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/Jm3hjDZ0WhE" target="_blank">
+                                Link to video part 1</a>
+                            <a href="https://youtu.be/vh1yTKqfELM" target="_blank">
+                                Link to video part 2</a>
+                            <a href="https://github.com/nyck33/defect_detector_CNN_Keras" target="_blank">
+                                link to code repo</a>
+                        </p>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!--end project-->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Particle filter on tennis player</h3>
+
+                        <p>
+                            I wrote a particle filter that uses Gaussian probabilities to localize objects.
+                            There is a demo video for the Mars Glider simulation as well as for using a particle filter
+                            to localize tennis players on broadcast TV tennis. I added another link to a tennis video
+                            where I used Tracknet to track the tennis ball and Openpose to track the players' poses.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/nT2wf2lMDEA" target="_blank">
+                                Link to particle fitler video</a>
+                            <a href="https://www.youtube.com/watch?v=QctKFhOkqKg" target="_blank">
+                                Openpose and Tracknet in tennis video</a>
+
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Seam carving images around key points</h3>
+
+                        <p>
+                            The midterm project, seam-carving by Avidan and Shamir was a good exercise in dynamic
+                            programming and OpenCV. It is introduced again later in the computational photography PDF
+                            below.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/osE4el21B6o" target="_blank">
+                                Link to seam carving video</a>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/python.png" height="200px" width="200px" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Computational Photography in Python</h3>
+
+                        <p>
+                            Please scroll through the portfolio below.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="row">
+                    <div class="pdf-embed">
+                        <embed src="pdf/NobuKimCompPhotoPortfolio-compressed.pdf" type="application/pdf" width="100%"
+                            height="600px" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Flutter</li>
+            <li>iOS</li>
+            <li>Android</li>
+
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>PHP</li>
+
+            <li>Python</li>
+            <li>Tensorflow</li>
+            <li>Keras</li>
+            <li>Pytorch</li>
+            <li>SciPy</li>
+            <li>Biopython</li>
+            <li>Flask</li>
+            <li>Plotly Dash</li>
+            <li>Dash Bio</li>
+            <li>Bottle</li>
+            <li>Python RQ</li>
+
+            <li>C#</li>
+            <li>Unity Game Engine</li>
+            <li>Windows Forms</li>
+
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>CUDA C/C++</li>
+            <li>OpenMP</li>
+            <li>LLVM</li>
+            <li>Qt</li>
+
+            <li>Elm</li>
+            <li>Haskell</li>
+            <li>Rust</li>
+
+            <li>Redis</li>
+            <li>MySQL</li>
+            <li>OracleSQL</li>
+            <li>MongoDB</li>
+
+            <li>AWS</li>
+            <li>Heroku</li>
+            <li>pythonanywhere</li>
+            <li>GCP</li>
+            <li>Firebase</li>
+            <li>Azure</li>
+
+            <li>CircleCI</li>
+            <li>Fastlane</li>
+            <li>Docker</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch・連絡</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mayajbyy">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send・送信</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2023 Nobutaka Kim
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/nyck33" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/9481613/mlstudent33" target="_blank"><i
+                                    class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/nobutaka-kim-685063221/" target="_blank"><i
+                                    class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script id="__bs_script__">
+        //<![CDATA[
+        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.14'><\/script>"
+            .replace("HOST", location.hostname));
+        //]]>
+    </script>
+</body>
+
+</html>
